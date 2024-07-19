@@ -32,7 +32,7 @@ Reduce fraudulent use of your services by managing device state and asserting ap
 ```
 # :eyes: Instructions
 
-#### :arrow_right: DeviceCheck
+#### :arrow_right: [DeviceCheck](#device-check)
 
 [1. How to get KeyID](#how-to-get-keyid) <br>
 [2.Generate JWT Token Key In server](#generate-jwt-token-key-in-server) <br>
@@ -40,14 +40,14 @@ Reduce fraudulent use of your services by managing device state and asserting ap
 [4. Update two bits](#update-two-bits)
 
  ##### :arrow_right: [App Attest](#app-attest)
-[App Attest](#app-attest) <br> <br>
+
 [1. App Configuration](#app-configuration) <br>
 [2. App Service Flow](#app-service-flow) <br>
 
  [some library for app attest](#some-library-for-app-attest)
 
 
-
+# <a name="device-check"> DeviceCheck
 
 The DeviceCheck services consist of both a framework interface that you access from your app and an Apple server interface that you access from your own server.
 
@@ -222,7 +222,7 @@ public ResponseEntity<String> updateTwoBits(@RequestBody Token token) throws Exc
 :arrow_right: Apple server will response HTTP status 200 and empty body if the update is successful.
 
 
-#  App Attest
+# App Attest
 
 Ensure that requests your server receives come from legitimate instances of your app.                           
 <br> You can’t rely on your app’s logic to perform security checks on itself because a compromised app can falsify the results. Instead, you use the sharedService instance of the DCAppAttestService class in your app to create a to certify that the key belongs to a valid instance of your app. Then you use the service to cryptographically sign server requests using the certified key. Your app uses these measures to assert its legitimacy with any server requests for sensitive or premium content.
