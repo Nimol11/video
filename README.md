@@ -34,7 +34,7 @@ Reduce fraudulent use of your services by managing device state and asserting ap
 
 #### :arrow_right: DeviceCheck
 
-[1. How to get KeyID](#how)
+[1. How to get KeyID](#how-to-get-keyid) <br>
 [2.Generate JWT Token Key In server](#generate-jwt-token-key-in-server) <br>
 [3. Query two bits](#query-two-bits) <br>
 [4. Update two bits](#update-two-bits)
@@ -54,7 +54,7 @@ The DeviceCheck services consist of both a framework interface that you access f
 Using the DCDevice class in your app, you can get a token that you use on your server to set and query two binary digits of data per device, while maintaining user privacy. For example, you might use this data to identify devices that have already taken advantage of a promotional offer that you provide, or to flag a device that you’ve determined to be fraudulent. The server-to-server APIs also let you verify that the token you receive comes from your app on an Apple device.
 
 
-#### <a name="keyid"> How to get keyId
+## How to get keyId
 Before we proceeding to the server code, Firstly wee need to generate a DeviceCheck Key on Apple Developer Console.
 <br> <b> [Read This for how to get private key for using in apple service api](https://developer.apple.com/help/account/manage-keys/create-a-private-key)</b>
 
