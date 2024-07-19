@@ -1,13 +1,15 @@
 # iOS DeviceCheck and App Attest 
 Reduce fraudulent use of your services by managing device state and asserting app integrity. <br>
-<img src = "https://github.com/Nimol11/video/blob/main/folder/Screenshot%202024-07-18%20at%208.29.40%20in%20the%20morning.png" width="500px"/>
+<img src = "https://github.com/Nimol11/video/blob/main/folder/Screenshot%202024-07-18%20at%208.29.40%20in%20the%20morning.png" width="500px"/>  <br>
+
 #:eyes: Instructions 
+
 ##### :arrow_right: [DeviceCheck](#device-check)
 [1. Check for availability](#check-for-availability) <br> 
 [2. Generate Device Token](#generate-device-token) <br>
 
 ##### :arrow_right: [app-attest](#app-attest)
-[1. Check for availability](#check for availability) <br>
+[1. Check for availability](#check-for-availability) <br>
 [2. Create a key pair](#create-a-key-pair) <br> 
 [3. Certify the key pairs as valid](#certify-the-key-pairs-as-valid) <br>
 [4. Assert your app’s validity as necessary](#assert-your-app-validity-as-necessary) <br>
