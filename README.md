@@ -2,7 +2,7 @@
 Reduce fraudulent use of your services by managing device state and asserting app integrity. <br>
 <img src = "https://github.com/Nimol11/video/blob/main/folder/Screenshot%202024-07-18%20at%208.29.40%20in%20the%20morning.png" width="500px"/>  <br>
 
-#:eyes: Instructions 
+# :eyes: Instructions 
 
 ##### :arrow_right: [DeviceCheck](#device-check)
 [1. Check for availability](#check-for-availability) <br> 
