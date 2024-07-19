@@ -39,7 +39,7 @@ Reduce fraudulent use of your services by managing device state and asserting ap
 [3. Query two bits](#query-two-bits) <br>
 [4. Update two bits](#update-two-bits)
 
- ##### :arrow_right: App Attest 
+ ##### :arrow_right: [App Attest](#app-attest)
 [App Attest](#app-attest) <br> <br>
 [1. App Configuration](#app-configuration) <br>
 [2. App Service Flow](#app-service-flow) <br>
