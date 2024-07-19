@@ -32,7 +32,7 @@ Reduce fraudulent use of your services by managing device state and asserting ap
 ```
 # :eyes: Instructions
 
-#### :arrow_right: [DeviceCheck](#device-check)
+##### :arrow_right: [DeviceCheck](#device-check)
 
 [1. How to get KeyID](#how-to-get-keyid) <br>
 [2.Generate JWT Token Key In server](#generate-jwt-token-key-in-server) <br>
