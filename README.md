@@ -63,7 +63,7 @@ Ensure that requests your server receives come from legitimate instances of your
 
 :book: Need to add App Attest in capability 
 
-### <a name="check-for-availability> Check for availability </a>
+### <a name="check-for-availability"> Check for availability </a>
 
 ```swift 
 import DeviceCheck 
